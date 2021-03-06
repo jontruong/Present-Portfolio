@@ -1,0 +1,33 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  height: 25px;
+  z-index: 1;
+  display: flex;
+  background-color: #111;
+  align-items: center;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav-github {
+  position: fixed;
+  align-items: center;
+  right: 10px;
+  color: beige;
+}
+
+a {
+  color: inherit;
+}
+
+.nav-ig {
+  position: fixed;
+  align-items: center;
+  right: 45px;
+  color: beige;
+}
