@@ -19,7 +19,11 @@ function ContactUs() {
     return (
         <div>
         <div className="contact-container">
+          
             <form className="contact-form" onSubmit={sendEmail}>
+            <div>
+                Lets Connect!
+            </div>
                 <div>
                     <label>Name</label>
                     <input type="text" name="name" placeholder="Name" id="input-area" />
@@ -33,7 +37,9 @@ function ContactUs() {
                     <textarea name="form-control" cols="30" rows="8" placeholder="Your Message" id="input-area"/>
                 </div>
                 <div>
+                    <btn className="bouncy">
                 <input id="submit" type="submit" value="Send Message" />
+                    </btn>
                 </div>
         </form>
 

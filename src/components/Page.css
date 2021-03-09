@@ -7,11 +7,20 @@
   display: flex;
   justify-content: center;
   scroll-snap-align: start;
-  background-color: white;
+  background-color: black;
 }
 
 .bio {
-  color: blue;
+  color: white;
   font-size: 30px;
   margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+.bio img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-right-style: solid;
 }

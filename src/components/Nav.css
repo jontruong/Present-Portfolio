@@ -6,12 +6,12 @@
   height: 25px;
   z-index: 1;
   display: flex;
-  background-color: #111;
+  background-color: black;
   align-items: center;
 }
 
 .nav__black {
-  background-color: #111;
+  background-color: black;
 }
 
 .nav-github {

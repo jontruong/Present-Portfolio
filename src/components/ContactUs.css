@@ -7,18 +7,20 @@
   display: flex;
   justify-content: center;
   scroll-snap-align: start;
-  background-color: rgb(180, 176, 176);
+  background-color: black;
   align-items: center;
 }
 
 .contact-form {
   margin-top: 40px;
+  color: white;
 }
 .contact-form > div {
   display: flex;
   flex-direction: column;
   margin: 2rem;
   font-size: 25px;
+  align-items: center;
 }
 
 .contact-form label {
@@ -33,5 +35,33 @@
   margin: 1rem;
   font-size: 30px;
   font-weight: bold;
-  margin-right: 30px;
+}
+
+.bouncy {
+  animation: bouncy 4s infinite linear;
+  position: relative;
+}
+
+@keyframes bouncy {
+  0% {
+    top: 0em;
+  }
+  40% {
+    top: 0em;
+  }
+  43% {
+    top: -0.9em;
+  }
+  46% {
+    top: 0em;
+  }
+  48% {
+    top: -0.4em;
+  }
+  50% {
+    top: 0em;
+  }
+  100% {
+    top: 0em;
+  }
 }
