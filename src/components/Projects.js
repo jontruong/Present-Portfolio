@@ -4,6 +4,7 @@ import './Projects.css'
 import ModelS from '../assets/Desktop-ModelS.jpg';
 import MotoWeather from '../assets/MotoWeather.png';
 import Netflix from '../assets/NetflixLogo.jpg'
+import Covid from '../assets/Covid.jpg'
 
 
 
@@ -30,6 +31,13 @@ function Projects() {
            Url="http://moto-weather.herokuapp.com/"
           
            />
+           <Card
+           title="Covid Tracker"
+           imageUrl={Covid}
+           body="A Covid-19 tracker app built with REACT.js, Chart.js, and Material-UI."
+           Url="">
+
+           </Card>
         </div>
         </div>
     )
