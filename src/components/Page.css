@@ -1,6 +1,5 @@
 .page-container {
   height: 100vh;
-  width: 100vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +11,6 @@
 
 .bio {
   color: white;
-  font-size: 30px;
   margin: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -25,17 +23,20 @@
   border-right-style: solid;
   margin-left: 40px;
 }
+h1 {
+  font-size: 50px;
+}
 h3 {
-  margin-bottom: 15px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 p {
-  margin: 20px;
+  margin: 30px;
   font-size: 25px;
 }
 
 @media (max-width: 768px) {
   .page-container {
-    width: 100%;
     display: flex;
     align-items: center;
   }
@@ -59,5 +60,6 @@ p {
     border-right-style: none;
     display: inline-block;
     margin: 0;
+    border-radius: 20%;
   }
 }

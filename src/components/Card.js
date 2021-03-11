@@ -5,17 +5,17 @@ function Card({title, imageUrl, body, Url}) {
     return (
         <div className="card-container">
             <div className="image-container">
-                <img src={imageUrl} alt="model S"/>
+                <img className="card-image" src={imageUrl} alt="images"/>
             </div>
             <div className="card-title">
-                <h3>{title}</h3>
+                <h4>{title}</h4>
             </div>
             <div className="card-body">
-                <p>{body}</p>
+                <p className="project-text">{body}</p>
             </div>
             <div className="btn">
                 <button>
-                <a href={Url} alt=" ">view more</a>
+                <a href={Url} alt="project Url">view more</a>
                 </button>
             </div>
         </div>
