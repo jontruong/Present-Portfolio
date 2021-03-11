@@ -16,6 +16,7 @@ function Projects() {
            title="Tesla Homepage Clone"
            imageUrl={ModelS}
            body="A Tesla Homepage using REACT.js"
+           Url="https://tesla-clone-9d32c.firebaseapp.com/"
            />
            <Card
            title="Netflix Clone"
@@ -35,7 +36,7 @@ function Projects() {
            title="Covid Tracker"
            imageUrl={Covid}
            body="A Covid-19 tracker app built with REACT.js, Chart.js, and Material-UI."
-           Url="">
+           Url="https://covid-tracker-a7e0f.firebaseapp.com">
 
            </Card>
         </div>
