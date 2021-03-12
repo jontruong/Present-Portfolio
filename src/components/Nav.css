@@ -19,6 +19,7 @@
   align-items: center;
   right: 10px;
   color: beige;
+  margin-left: 10px;
 }
 
 a {
@@ -29,5 +30,13 @@ a {
   position: fixed;
   align-items: center;
   right: 45px;
+  margin-left: 10px;
   color: beige;
+}
+
+.nav-linkedIn {
+  right: 80px;
+  position: fixed;
+  color: beige;
+  align-items: center;
 }

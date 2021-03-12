@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   scroll-snap-align: start;
+  background-color: white(100, 95, 95);
 }
 
 .project-container {
