@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import './ContactUs.css';
+import Modal from 'react-modal';
+
+
+
+
 
 function ContactUs() {
 
@@ -15,6 +20,11 @@ function ContactUs() {
           });
           e.target.reset();
       }
+
+      const[modalIsOpen, setModalIsOpen] = useState(false)
+      
+
+   
     
     return (
         <div>
@@ -37,9 +47,25 @@ function ContactUs() {
                     <textarea name="form-control" cols="30" rows="8" placeholder="Your Message" id="input-area"/>
                 </div>
                 <div>
-                    <btn className="bouncy">
-                <input id="submit" type="submit" value="Send Message" />
-                    </btn>
+                    <button className="bouncy" onClick={()=> setModalIsOpen(true)}>
+                            Send message
+                    </button>
+                    <Modal 
+                    className="modal"
+                    isOpen={modalIsOpen} 
+                    onRequestClose={()=> setModalIsOpen(false)}
+                   >
+                        <div className='modal-box'>
+                        <h2 className="modal-text-title">
+                            Message Sent!
+                        </h2>
+                        <h2 className="modal-text">I will get back to you shortly!</h2>
+                        <h2 className="modal-text">Thank you for stopping by!</h2>
+                        <button onClick={()=> setModalIsOpen(false)}>Close</button>
+
+                        </div>
+                    </Modal>
+                
                 </div>
         </form>
 

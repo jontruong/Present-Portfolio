@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   padding: 10px;
-  height: 25px;
+  height: 18px;
   z-index: 1;
   display: flex;
   background-color: black;
@@ -25,7 +25,6 @@
 a {
   color: inherit;
 }
-
 .nav-ig {
   position: fixed;
   align-items: center;

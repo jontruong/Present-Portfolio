@@ -2,8 +2,9 @@ import ContactUs from '../src/components/ContactUs'
 import './App.css';
 import Page from './components/Page';
 import Nav from './components/Nav';
-import Projects from './components/Projects';
-
+import Projects from './components/Projects'
+import Modal from 'react-modal';
+Modal.setAppElement('#root')
 function App() {
   return (
 
