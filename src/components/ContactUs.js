@@ -51,6 +51,7 @@ function ContactUs() {
                             Send message
                     </button>
                     <Modal 
+                 
                     className="modal"
                     isOpen={modalIsOpen} 
                     onRequestClose={()=> setModalIsOpen(false)}
