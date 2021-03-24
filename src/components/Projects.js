@@ -4,7 +4,7 @@ import './Projects.css'
 import ModelS from '../assets/Desktop-ModelS.jpg';
 import MotoWeather from '../assets/MotoWeather.png';
 import Netflix from '../assets/NetflixLogo.jpg'
-import Covid from '../assets/Covid.jpg'
+import Pinterest from '../assets/Pinterest.png'
 
 
 
@@ -33,10 +33,10 @@ function Projects() {
           
            />
            <Card
-           title="Covid Tracker"
-           imageUrl={Covid}
-           body="A Covid-19 tracker app built with REACT.js, Chart.js, and Material-UI."
-           Url="https://covid-tracker-a7e0f.firebaseapp.com">
+           title="Pinterest Clone"
+           imageUrl={Pinterest}
+           body="A Pinterest clone using React.js, Material-UI, and Axios."
+           Url="https://pinterest-clone-c1a12.firebaseapp.com/">
 
            </Card>
         </div>
